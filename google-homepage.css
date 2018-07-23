@@ -1,1 +1,25 @@
 /* this is my css page for google exercise */
+
+.header {
+    border: 0.01px solid black;
+    width: 100%;
+    height: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.header #head-left {
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 16px;
+    font: 100;
+    word-spacing: 10px;
+}
+.header #head-right {
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 16px;
+    font: 100;
+    word-spacing: 10px;
+}
