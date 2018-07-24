@@ -1,4 +1,4 @@
-# Project Title
+# Google Homepage Excercise (The Odin Project)
 
 This project is part of the curriculum from a course called "The Odin Project". Here is a brief overview and origin story of the site, "The Odin Project provides a free open source coding curriculum that can be taken entirely online. Since it’s inception, it has helped many students get hired as developers and has assisted countless others learn enough programming to work on their own personal projects. Founded in 2013 by Erik Trautman, The Odin Project is now sponsored by Thinkful, a new type of technology school that provides 1-on-1 learning through its network of industry experts, hiring partners, and online platform to deliver a structured and flexible education. The Odin Project is maintained and continually improved by a team of volunteers, many of whom learned to code with us."
 
