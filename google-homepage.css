@@ -1,34 +1,65 @@
 /* this is my css page for google exercise */
 
-.left-head {
-    display: flex;
-    flex-flow: row;
-    justify-content: flex-start;
-    align-items: center;
-    box-align: top;
-    z-index: -1;
-    position: relative;
+body {
+    font-family: "open sans", Arial, Helvetica;
+    font-size: 13px;
 }
+
 .top-nav {
-    flex: 1 auto;
-    padding: 10px 10px 10px 0;
+    
 }
-.nav-list {
-    display: flex;
-    flex-flow: row;
+.nav-list-right {
+    flex: 2 auto;
+    display: inline-flex;
+    flex-flow: row wrap;
     justify-content: flex-end;
     align-items: center;
-    box-align: top;
-    z-index: -1;
-    position: relative;
+    list-style: none;
+    float: right;
+}
+.nav-list-left {
+    flex: 2 auto;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    float: left;
+}
+.nav-list-left #About {
+    padding: 5px;
+    display: flex;
+    flex: 2 auto;
+}
+.nav-list-left #Store {
+    padding: 5px;
+    display: flex;
+    flex: 2 auto;
+}
+.nav-list-right #Gmail {
+    padding: 5px;
+    display: flex;
+    flex: 2 auto;
+}
+.nav-list-right #Images {
+    padding: 5px;
+    display: flex;
+    flex: 2 auto;
+}
+.nav-list-right #Apps {
+    padding: 5px;
+    display: flex;
+    flex: 2 auto;
+}
+.nav-list-right #Sign-In {
+    padding: 5px;
+    display: flex;
+    flex: 2 auto;
 }
 .body {
-    font-size: 13px;
-    font-family: "open sans", Arial, Helvetica;
-    display: flex;
-    flex-flow: column;
-    /* width: 100%;*/
-    min-height: 100vh;
-    /* min-width: 540px; */
-    /* min-height: 500px; */
+   
+}
+.footer {
+    list-style: none;
+    
 }
