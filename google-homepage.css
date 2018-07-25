@@ -59,7 +59,18 @@ body {
 .body {
    
 }
-.footer {
-    list-style: none;
-    
+.foot-left #Advertising {
+    padding: 5px;
+    display: flex;
+    flex: 2 auto;
+}
+.foot-left #Business {
+    padding: 5px;
+    display: flex;
+    flex: 2 auto;
+}
+.foot-right #Privacy {
+    padding: 5px;
+    display: flex;
+    flex: 2 auto;
 }
