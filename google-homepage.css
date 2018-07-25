@@ -56,8 +56,34 @@ body {
     display: flex;
     flex: 2 auto;
 }
-.body {
-   
+.main-search {
+    flex: 25 auto;
+    /* padding: 0;*/
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12%;
+    padding-bottom: 15%;
+    padding-left: 25%;
+    padding-right: 25%; 
+}
+#srch {
+    height: 18px;
+    width: 400px;
+
+}
+#btnG {
+    margin-left: 75px;
+}
+.foot-left {
+    flex: 2 auto;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    float: left;
 }
 .foot-left #Advertising {
     padding: 5px;
@@ -69,7 +95,26 @@ body {
     display: flex;
     flex: 2 auto;
 }
+.foot-right {
+    flex: 2 auto;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    float: right;
+}
 .foot-right #Privacy {
+    padding: 5px;
+    display: flex;
+    flex: 2 auto;
+}
+.foot-right #Terms {
+    padding: 5px;
+    display: flex;
+    flex: 2 auto;
+}
+.foot-right #Settings {
     padding: 5px;
     display: flex;
     flex: 2 auto;
